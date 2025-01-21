@@ -32,7 +32,7 @@ class ApiManager {
   static Future<NewsResponse?>getNewBySourceId(String sourceId)async{
     Uri url = Uri.https(
       ApiConstant.baseUrl,
-      EndPoints.sourceApi,
+      EndPoints.newsApi,
       {'apiKey': ApiConstant.apiKey,
        'sources' : sourceId
       },

@@ -9,6 +9,9 @@ class AppTheme {
     indicatorColor: AppColors.blackColor,
     scaffoldBackgroundColor: AppColors.whiteColor,
     appBarTheme: const AppBarTheme(centerTitle: true,
+    iconTheme:IconThemeData(
+      color: AppColors.blackColor
+    ) ,
     backgroundColor: AppColors.whiteColor),
     textTheme: TextTheme(
         labelLarge: AppStyles.bold16Black,
@@ -22,6 +25,9 @@ class AppTheme {
     indicatorColor: AppColors.whiteColor,
     scaffoldBackgroundColor: AppColors.blackColor,
     appBarTheme: const AppBarTheme(centerTitle: true,
+        iconTheme:IconThemeData(
+            color: AppColors.whiteColor
+        ) ,
         backgroundColor: AppColors.blackColor),
     textTheme: TextTheme(
         labelLarge: AppStyles.bold16White,
